@@ -11,3 +11,18 @@
     border: 1px solid rgb(233, 255, 255);
     border-radius: 10px;
 }
+
+@media (max-width:600px){
+    .arts {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .arts img{
+        width: 75px;
+        height: 100px;
+        margin-right: 10px;
+    }
+}
