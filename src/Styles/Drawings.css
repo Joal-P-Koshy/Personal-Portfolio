@@ -1,0 +1,13 @@
+.arts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    row-gap: 25px;
+}
+
+.arts img{
+    width: 200px;
+    height: 250px;
+    border: 1px solid rgb(233, 255, 255);
+    border-radius: 10px;
+}
