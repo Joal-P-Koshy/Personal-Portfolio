@@ -18,9 +18,9 @@ function Home() {
                             <button>Download Resume</button>
                         </div>
                     </div>
-                    <div className="myImg" data-aos = 'fade-up' data-aos-duration="2000">
-                        <img src={FullImg} alt="Picture of me" className='fullImg' />
-                        <img src={CircleImg} alt="Picture of me" className="circleImg" width={"200px"} />
+                    <div className="myImg" >
+                        <img data-aos = 'fade-up' data-aos-duration="2000" src={FullImg} alt="Picture of me" className='fullImg' />
+                        <img data-aos = 'fade-left' data-aos-duration="2000" src={CircleImg} alt="Picture of me" className="circleImg" width={"200px"} />
                     </div>
                 </div>
             </section>
