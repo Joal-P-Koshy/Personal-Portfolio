@@ -5,12 +5,12 @@ import "../Styles/Contact.css"
 function Contact() {
   return (
     <>
-      <section className="contact">
-        <div className="sec-head" data-aos = 'fade-up' data-aos-duration="1000">
+      <section className="contact" data-aos = 'fade-up' data-aos-duration="1000">
+        <div className="sec-head" >
           <p>Contact</p>
         </div>
         <hr data-aos = 'zoom-in' data-aos-duration="2000"/>
-        <div className="contact-icons" data-aos = 'zoom-in' data-aos-duration="1000">
+        <div className="contact-icons" >
           <a href="https://wa.me/9778342389" target='_blank' >
             <i class="fa-brands fa-whatsapp whatsapp"></i>
           </a>
