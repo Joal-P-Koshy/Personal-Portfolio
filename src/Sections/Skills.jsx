@@ -15,7 +15,7 @@ function Skills() {
             <div className="skillImg" data-aos = 'zoom-in-up'>
                 <img src={skillImg} alt="boy with laptop" />
             </div>
-            <div className="prog-bar" data-aos = 'flip-up'>
+            <div className="prog-bar" data-aos = 'zoom-in-left'>
                 <div className="pb-html">
                     <div className="skill-percent">
                         <p>HTML</p>
