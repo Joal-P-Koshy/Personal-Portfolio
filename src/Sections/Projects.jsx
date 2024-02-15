@@ -7,12 +7,12 @@ function Projects() {
     return (
         <>
             <section className="project">
-                <div className="sec-head">
+                <div className="sec-head" data-aos = 'fade-up' data-aos-duration="1000">
                     <p>Projects</p>
                 </div>
-                <hr />
-                <div className="main-wrap">
-                    <div className="prj-wrap">
+                <hr data-aos = 'zoom-in' data-aos-duration="2000"/>
+                <div className="main-wrap" data-aos = 'fade-right' data-aos-duration="2000">
+                    <div className="prj-wrap" data-aos = 'fade-right' data-aos-duration="400">
                         <div className="Prjt-img">
                             <img src={mediaplayer} alt="media player img" className="image" />
                         </div>
@@ -29,7 +29,7 @@ function Projects() {
                             {/* </Link> */}
                         </div>
                     </div>
-                    <div className="prj-wrap">
+                    <div className="prj-wrap" data-aos = 'fade-right' data-aos-duration="600">
                         <div className="Prjt-img">
                             <img src={mediaplayer} alt="media player img" className="image" />
                         </div>
@@ -46,7 +46,7 @@ function Projects() {
                             {/* </Link> */}
                         </div>
                     </div>
-                    <div className="prj-wrap">
+                    <div className="prj-wrap" data-aos = 'fade-right' data-aos-duration="800">
                         <div className="Prjt-img">
                             <img src={mediaplayer} alt="media player img" className="image" />
                         </div>
@@ -63,7 +63,7 @@ function Projects() {
                             {/* </Link> */}
                         </div>
                     </div>
-                    <div className="prj-wrap">
+                    <div className="prj-wrap" data-aos = 'fade-right' data-aos-duration="1000">
                         <div className="Prjt-img">
                             <img src={mediaplayer} alt="media player img" className="image" />
                         </div>
@@ -80,7 +80,7 @@ function Projects() {
                             {/* </Link> */}
                         </div>
                     </div>
-                    <div className="prj-wrap">
+                    <div className="prj-wrap" data-aos = 'fade-right' data-aos-duration="1200">
                         <div className="Prjt-img">
                             <img src={mediaplayer} alt="media player img" className="image" />
                         </div>
@@ -97,7 +97,7 @@ function Projects() {
                             {/* </Link> */}
                         </div>
                     </div>
-                    <div className="prj-wrap">
+                    <div className="prj-wrap" data-aos = 'fade-right' data-aos-duration="1400">
                         <div className="Prjt-img">
                             <img src={mediaplayer} alt="media player img" className="image" />
                         </div>

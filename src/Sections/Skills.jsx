@@ -7,15 +7,15 @@ function Skills() {
   return (
     <>
     <section className="skills">
-        <div className="sec-head">
+        <div className="sec-head" data-aos = 'fade-up' data-aos-duration="1000">
             <p>Skills</p>
         </div>
-        <hr />
+        <hr data-aos = 'zoom-in' data-aos-duration="2000"/>
         <div className="wrapper">
-            <div className="skillImg">
+            <div className="skillImg" data-aos = 'zoom-in-up'>
                 <img src={skillImg} alt="boy with laptop" />
             </div>
-            <div className="prog-bar">
+            <div className="prog-bar" data-aos = 'flip-up'>
                 <div className="pb-html">
                     <div className="skill-percent">
                         <p>HTML</p>

@@ -14,11 +14,11 @@ function Drawings() {
     return (
         <>
             <section className="drawing">
-                <div className="sec-head">
+                <div className="sec-head" data-aos = 'fade-up' data-aos-duration="1000">
                     <p>Digital Art</p>
                 </div>
-                <hr />
-                <div className="arts">
+                <hr data-aos = 'zoom-in' data-aos-duration="2000"/>
+                <div className="arts" data-aos = 'fade-up' data-aos-duration="2000">
 
                     <div className="">
                         <img src={dq} alt="Scribble art of dq" />

@@ -119,3 +119,63 @@ h2 {
     
 }
 
+/* ========Animations======== */
+/* .hey {
+    animation: slide .4s ease-in;
+}
+
+@keyframes slide {
+    0%{
+        transform: translateX(-40px);
+    }
+}
+
+.im {
+    animation: slide1 .6s ease-in;
+}
+
+@keyframes slide1 {
+    0%{
+        transform: translateX(-40px);
+    }
+}
+
+.web {
+    animation: slide2 .8s ease-in;
+}
+
+@keyframes slide2 {
+    0%{
+        transform: translateX(-40px);
+    }
+}
+
+.para {
+    animation: slide3 1.0s ease-in;
+}
+
+@keyframes slide3 {
+    0%{
+        transform: translateX(-40px);
+    }
+}
+
+.cv-btn {
+    animation: slide4 1.2s ease-in;
+}
+
+@keyframes slide4 {
+    0%{
+        transform: translateX(-40px);
+    }
+}
+
+.myImg {
+    animation: slide5 1.4s ease-in;
+}
+
+@keyframes slide5 {
+    0%{
+        transform: translateX(-40px);
+    }
+} */
