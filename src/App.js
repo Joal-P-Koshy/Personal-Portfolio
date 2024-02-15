@@ -9,6 +9,7 @@ import Projects from './Sections/Projects';
 import Skills from './Sections/Skills';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import About from './Sections/About';
 
 function App() {
   useEffect(()=>{
@@ -18,6 +19,7 @@ function App() {
     <>
     <Header />
     <Home />
+    <About />
     <Skills />
     <Projects />
     <Drawings />
