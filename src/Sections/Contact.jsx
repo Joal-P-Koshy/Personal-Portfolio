@@ -10,20 +10,20 @@ function Contact() {
           <p>Contact</p>
         </div>
         <hr data-aos = 'zoom-in' data-aos-duration="2000"/>
-        <div className="contact-icons" data-aos = 'fade-right' data-aos-duration="2000">
-          <a href="https://wa.me/9778342389" target='_blank' data-aos = 'fade-right' data-aos-duration="600">
+        <div className="contact-icons" data-aos = 'zoom-in' data-aos-duration="1000">
+          <a href="https://wa.me/9778342389" target='_blank' >
             <i class="fa-brands fa-whatsapp whatsapp"></i>
           </a>
-          <a href="https://github.com/Joal-P-Koshy" target='_blank'data-aos = 'fade-right' data-aos-duration="800">
+          <a href="https://github.com/Joal-P-Koshy" target='_blank'>
             <i class="fa-brands fa-github git"></i>
           </a>
-          <a href="www.linkedin.com/in/joal-p-koshy-a82110297" target='_blank'data-aos = 'fade-right' data-aos-duration="1000">
+          <a href="www.linkedin.com/in/joal-p-koshy-a82110297" target='_blank'>
             <i class="fa-brands fa-linkedin linkedin"></i>
           </a>
-          <a href="https://www.instagram.com/mr_spydo?igsh=cHIxODF5MG1oY3lq" target='_blank'data-aos = 'fade-right' data-aos-duration="1200">
+          <a href="https://www.instagram.com/mr_spydo?igsh=cHIxODF5MG1oY3lq" target='_blank'>
             <i class="fa-brands fa-instagram insta"></i>
           </a>
-          <a href="mailto:joalpkoshyy@gmail.com" target='_blank'data-aos = 'fade-right' data-aos-duration="1400">
+          <a href="mailto:joalpkoshyy@gmail.com" target='_blank'>
             <i class="fa-solid fa-envelope mail"></i>
           </a>
         </div>
