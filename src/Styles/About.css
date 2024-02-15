@@ -7,18 +7,21 @@
     text-align: center;
 }
 
-.edu-line{
+.edu-line {
     padding: 30px;
 }
 
 .main-line {
     width: 90%;
+    height: 2px;
+    background-color: aqua;
+    margin: auto;
+    border-radius: 50%;
 }
 
 .sub-lines {
     display: flex;
     justify-content: space-around;
-    margin-top: -50px;
 }
 
 .line {
@@ -40,9 +43,11 @@
 .lumi {
     margin-left: 98px;
 }
+
 .dipl {
     margin-left: 177px;
 }
+
 .hse {
     margin-left: 195px;
 }
@@ -57,4 +62,45 @@
 
 .txt3 {
     font-size: 12px;
+}
+
+@media (max-width:600px) {
+    .ab-para {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .ab-para p {
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .line {
+        width: 2px;
+        height: 50px;
+    }
+
+    .txt1 {
+        font-size: 14px;
+    }
+    
+    .txt2 {
+        font-size: 11px;
+    }
+    
+    .txt3 {
+        font-size: 8px;
+    }  
+    
+    .lumi {
+        margin-left: 0px;
+    }
+    
+    .dipl {
+        margin-left: 0px;
+    }
+    
+    .hse {
+        margin-left: 0px;
+    }
 }

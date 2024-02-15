@@ -23,7 +23,7 @@ function About() {
             </p>
           </div>
           <div className="edu-line" >
-            <hr className="main-line" data-aos = 'fade-right' data-aos-duration="2000"/>
+            <div className="main-line" data-aos = 'fade-right' data-aos-duration="2000"></div>
             <div className="sub-lines" data-aos = 'fade-left' data-aos-duration="1000">
               <div className="line"></div>
               <div className="line"></div>
