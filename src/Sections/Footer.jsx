@@ -5,9 +5,9 @@ import "../Styles/Footer.css"
 function Footer() {
   return (
     <>
-    <section className="footer" data-aos = 'fade-up' data-aos-duration="2000">
+    <section className="footer">
         <hr className="foot-line" />
-        <div className="copyright">
+        <div className="copyright" >
         <p>&copy;My portfolio Design 2024,All Rights Reserved &reg; Joal P Koshy</p>
         </div>
     </section>
