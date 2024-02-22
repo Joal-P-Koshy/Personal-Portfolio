@@ -140,7 +140,7 @@ button:hover:after {
     justify-content: center;
   }
 
-  button {
+  .btn button {
     width: 140px;
     height: 50px;
     font-size: 15px;
