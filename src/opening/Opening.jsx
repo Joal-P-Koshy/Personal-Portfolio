@@ -8,7 +8,7 @@ function Opening() {
     <>
       <div className="wrap">
         <div className="img-txt">
-          <div className="pic" data-aos = 'fade-right' data-aos-duration="2000">
+          <div className="o-pic" data-aos = 'fade-right' data-aos-duration="2000">
             <img src={pic} alt="my pic" data-aos = 'fade-left' data-aos-duration="2500"/>
           </div>
           <div className="txt-btn">
@@ -19,7 +19,7 @@ function Opening() {
             </div>
             <div className="btn" data-aos = 'fade-right' data-aos-duration="1600">
               <Link to={'/portfolio'}>
-                <button>Explore More</button>
+                <button id='exp-btn'>Explore More</button>
               </Link>
             </div>
           </div>

@@ -15,7 +15,7 @@ function Home() {
                         <h2 data-aos = 'fade-right' data-aos-duration="1200">Web Developer</h2>
                         <p className='para' data-aos = 'fade-right' data-aos-duration="1400">As a web developer, I am dedicated to crafting elegant and efficient digital solutions that seamlessly merge creativity with functionality, propelling user experiences to new heights.</p>
                         <div className="cv-btn" data-aos = 'fade-right' data-aos-duration="1600">
-                            <button>Download Resume</button>
+                            <button className='dnld'>Download Resume</button>
                         </div>
                     </div>
                     <div className="myImg" >
