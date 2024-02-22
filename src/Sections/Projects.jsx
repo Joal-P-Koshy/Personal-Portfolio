@@ -2,7 +2,7 @@ import React from 'react'
 import "../Styles/Projects.css"
 import mediaplayer from '../assets/mediaplayer.png'
 import ekart from '../assets/ekart.png'
-import restaurant from '../assets/restaurant.png'
+import resto from '../assets/restaurant.png'
 import Counter from '../assets/counter.png'
 import simpleinteret from '../assets/simpleinterest.png'
 import todo from '../assets/todo.png'
@@ -75,7 +75,7 @@ function Projects() {
 
                     <div className="prj-wrap" data-aos = 'fade-right' data-aos-duration="600">
                         <div className="Prjt-img">
-                            <img src={restaurant} alt="restaurant img" className="image" />
+                            <img src={resto} alt="restaurant img" className="image" />
                         </div>
                         <div className="">
                             <p className="prjt-name">Restaurant</p>
